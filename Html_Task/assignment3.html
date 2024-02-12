@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment3</title>
+    <style>
+        .hr1{
+            border: 1px solid black;
+            margin-top: 20px;
+            margin-bottom: 25px;
+        }
+        .hr2{
+            border: 1px solid black;
+            margin-top: 20px;
+        }
+        .form1 {
+            width: 80%;
+            margin-bottom: 40px;
+        }
+        .div2 {
+            display: flex;
+        }
+        .span1 {
+            margin-right: 3px;
+            font-style: italic;
+        }
+        .formdiv{
+            padding-top: 25px;
+        }
+        .formfield{
+            text-decoration: line-through;
+        }
+        .pass{
+            color: blue;
+            border-bottom: 1px solid blue;
+        }
+        .unorder1 {
+                list-style-type: none;
+            }
+
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptatum harum vero ipsam quidem autem ab
+        delectus facilis quos praesentium, maxime suscipit nulla cumque. Ex eveniet iure omnis libero? Dolore dolor,
+        excepturi nam nobis tempore autem voluptate earum animi enim error hic dolores soluta deleniti iure ratione
+        facere. Neque magnam dolor similique autem! Odio qui autem est nobis magnam nostrum, impedit earum sint
+        inventore? Ad perspiciatis, delectus expedita, voluptates aut dolor eligendi eius at mollitia <sup><a href="">dignissimos
+        laboriosam iure </a></sup>Vel quae enim <sub><a href="">veritatis Eaque dolore</a></sub> ullam magnam est vel cupiditate pariatur nostrum officia
+        illum vitae, similique doloremque veniam modi libero corporis. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Enim at, aut delectus asperiores sunt odit, quae aperiam nisi expedita nam dolores quidem
+        corrupti, atque ratione. Dicta est magnam tenetur quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Ad magnam neque, quis quo asperiores deleniti ullam culpa, maxime, voluptatibus adipisci dicta ipsa perspiciatis
+        consequatur. Quam possimus nihil vitae quae accusamus?</p>
+
+    <hr class="hr1">
+
+    <form class="form1">
+        <fieldset>
+            <legend class="formfield">Form:</legend>
+            <div class="formdiv">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="fname">
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="password"><span class="pass">Password</span></label>
+            <input type="password" id="password" name="password">
+            <br><br>
+            <label for="html">Male</label>
+            <input type="radio" id="male" name="gender" value="Male"> 
+            <label for="css">Female</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <br><br>
+            <select name="city" id="city">
+                <option value="volvo">Select City</option>
+                <option value="volvo">Noida</option>
+                <option value="saab">Azamgarh</option>
+                <option value="mercedes">Sitapur</option>
+            </select>
+            <br><br>
+            <div class="div2">
+                <span class="span1"><label for="commentarea">Comments </label></span>
+                <textarea id="commentarea" name="commentarea" rows="7" cols="30"></textarea>
+            </div>
+            <br><br>
+            <input type="submit" value="Reset">
+            <input type="submit" value="Submit">
+            <br><br>
+        </div>
+        </fieldset>
+    </form>
+
+    <ol type="1">
+        <li>Sustainable</li>
+        <ul class="unorder1">
+            <li>Anderson</li>
+            <li>Bot</li>
+        </ul>
+        <li>21st century</li>
+        <li>Hulvetica</li>
+        <ul class="unorder1">
+            <li>Anderson</li>
+            <li>Bot</li>
+        </ul>
+        <li>Asymmentrical<a href=""><del>H<sub>2</sub>O</del></a></li>
+        <li>Authentic</li>
+    </ol>
+
+    <hr class="hr2">
+    <button type="button">Submit</button>
+
+</body>
+
+</html>

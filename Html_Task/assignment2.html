@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment2</title>
+    <style>
+        .emph {
+            text-decoration: line-through;
+        }
+        .lem{
+            font-weight: bold;
+        }
+
+        .spanpara2 {
+            color: blue;
+            border-bottom: 1px solid blue;
+        }
+
+        .div2 {
+            display: flex;
+        }
+
+        .span1 {
+            margin-right: 3px;
+        }
+
+        .form1 {
+            width: 80%;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        .table1 {
+            width: 50%;
+            margin-bottom: 40px;
+        }
+
+        .row1 {
+            text-align: left;
+        }
+
+        .hr1 {
+            border: 1px solid black;
+            margin-bottom: 40px;
+        }
+
+        .ul1 {
+            list-style-type: none;
+        }
+        .formdiv{
+            padding-top: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptates, <strong>dolorem atque earum illum
+            cumque cum
+            officia </strong>aut non, at quod dolore, labore repellendus vel. Sunt similique exercitationem
+        necessitatibus quaerat,
+        expedita quod aliquam animi reiciendis tenetur alias accusamus in nesciunt non unde? Sint dolorem enim totam
+        minima temporibus rerum, amet ut sit maxime magnam voluptates assumenda sequi! Suscipit, <em class="emph">porro
+            tempore maxime
+            magnam voluptates</em> assumenda sequi! Suscipit, porro tempore.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa aspernatur recusandae, ratione iusto voluptas
+        amet! Tenetur dolorum labore itaque quo necessitatibus impedit excepturi dicta minima, delectus officiis sunt
+        illo doloremque maxime ad mollitia blanditiis.<span class="spanpara2"><em>fuga voluptatem magni minima explicabo
+            </em></span>qui accusamus
+        debitis modi aliquam temporibus in pariatur cumque autem dolorum dolore reprehenderit, voluptate ex libero
+        animi. Suscipit, cumque qui.</p>
+
+    <form class="form1">
+        <fieldset>
+            <legend>Form:</legend>
+            <div class="formdiv">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="fname">
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            <br><br>
+            <label for="html">Male</label>
+            <input type="radio" id="male" name="gender" value="Male"> 
+            <label for="css">Female</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <br><br>
+            <select name="city" id="city">
+                <option value="volvo">Select City</option>
+                <option value="volvo">Noida</option>
+                <option value="saab">Azamgarh</option>
+                <option value="mercedes">Sitapur</option>
+            </select>
+            <br><br>
+            <div class="div2">
+                <span class="span1"><label for="commentarea">Comments </label></span>
+                <textarea id="commentarea" name="commentarea" rows="7" cols="30"></textarea>
+            </div>
+            <br><br>
+            <input type="submit" value="Reset">
+            <input type="submit" value="Submit">
+            <br><br>
+        </div>
+        </fieldset>
+    </form>
+
+    <table class="table1">
+        <tr class="row1">
+            <th>Number</th>
+            <th>Name</th>
+            <th>Last name</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Eve</td>
+            <td>jackson</td>
+            <td>96</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>John</td>
+            <td>doe</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Adam</td>
+            <td>Johnson</td>
+            <td>67</td>
+        </tr>
+    </table>
+    <hr class="hr1">
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, non tempore veniam quos nobis dicta distinctio
+        quae autem laborum natus tenetur ipsam totam placeat sunt ex adipisci odio ad hic! Totam quis soluta provident
+        debitis dolor numquam,<em><strong>placeat, rerum error libero aut dolorum id? Veniam,</strong></em> officiis!
+        Deserunt veniam dolores
+        amet eum blanditiis, porro in modi commodi numquam fugiat aperiam dicta magni praesentium natus perspiciatis
+        laboriosam incidunt quia beatae <strong>ab nihil accusantium error itaque. Fugiat deserunt sequi illo
+            repellat</strong>
+        asperiores voluptatum saepe molestias! Architecto facere sapiente ab. Voluptatem veniam ratione nobis earum
+        sapiente temporibus molestiae itaque quae. Suscipit, vitae itaque?</p>
+
+    <ul class="ul1">
+        <li>Lorem.
+            <ul class="ul1">
+                <li>expedita</li>
+                <li>molestiae</li>
+            </ul>
+        </li>
+        <li>consectetur
+            <ul class="ul1">
+                <li>placeat</li>
+                <li>numquam</li>
+            </ul>
+        </li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum commodi sapiente quos non tempore nam fugiat
+        quaerat esse, expedita cumque in veniam, atque nesciunt repellat laborum eligendi ullam consequatur dolor quis
+        aliquam mollitia deserunt totam voluptatibus? Perferendis distinctio praesentium magnam iusto quae error
+        repudiandae. A nostrum doloribus aliquam esse perspiciatis corporis consequuntur sunt autem ullam vel. Debitis
+        velit est <em class="emph lem">consectetur dolorem soluta iste, nam eaque nulla tempore </em>autem.</p>
+</body>
+
+</html>
